@@ -1,0 +1,86 @@
+.topnavbar {
+    width: 100%;
+    background: limegreen;
+    margin-top: opx;
+    height: 25px;
+    padding: 27px 32px;
+    overflow: hidden;
+}
+.topnavbar a {
+    padding: 18px 23px;
+    background-color: lightseagreen;
+    overflow: hidden;
+}
+
+/*styling the paragraph text*/
+p {
+    text-align: left;
+    color:black;
+    font-size: 20px;
+    font-style: italic;
+
+}
+
+.container {
+    border: maroon;
+    padding: 25px 17px;
+    background-color: lightcoral;
+    box-sizing: content-box;
+    border-radius: 12%;
+    text-rendering: geometricPrecision;
+    margin-left: 5%;
+    margin-right: 15%;
+    page-break-after: left;
+    
+}
+/*styling the list elemtents*/
+.skills {
+    margin-right: 8%;
+}
+.skills p {
+    font-style: oblique;
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 29px;
+    font-weight: bold;
+    margin-right: 50%;
+}
+.skills li {
+    color:black;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.experiences p {
+    font-style: oblique;
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 29px;
+    font-weight: bold;
+}
+.experiences li {
+    color:black;
+    font-size: 20px;
+    font-style: italic;
+}
+.projects p {
+    font-style: oblique;
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 29px;
+    font-weight: bold; 
+}
+.projects li {
+    font-size: 20px;
+    color:black;
+    font-style: italic;
+}
+
+/*changing elements with in the footer*/
+footer {
+    color: red;
+    text-align: center;
+    font-style: italic;
+    background-color: lightblue;;
+    font-size: 40px;
+}

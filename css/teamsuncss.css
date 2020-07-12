@@ -1,0 +1,78 @@
+body{
+    background:url(/images/sun21.jpg) ;
+    background-repeat: repeat-y;
+    background-size: cover;
+    color: white;    
+}
+p{
+    font-size: 20px;
+    font-weight: 100px;
+    padding-left: 20px;
+}
+h1{
+    font-size: 60px;
+    padding-top: -40px;
+    padding-left: 20px;
+    font-weight: 400px;
+}
+h4{
+    font-size: 25px;
+    text-align: left;
+    padding-top:-20px;
+    color:white;
+    padding-left: 20px;
+}
+.column {
+    width: 400px;
+    padding: 20px;
+    position: relative;
+    bottom: 10px;
+    top: -80px;
+    float: left;
+        
+}
+/* Remove extra left and right margins, due to padding */
+@media only screen and (max-width: 2000px){
+    .row{
+        margin: 5 5px;
+}
+}
+/* Clear floats after the columns */
+
+@media only screen and (max-width: 2000px){
+    .row:after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+/* Responsive columns here you can adjust the size of the card */
+@media only screen and (max-width: 3000px){
+    .column{
+        width:200px;
+        display:block;
+        height: 30px;
+        padding: 100px;
+        padding-left: 20px;
+        
+        
+            }
+}
+
+/* Style the counter cards */
+.card {
+    width: 10px;
+    padding: 0px;
+    height: 10px;
+    float: left; 
+ 
+  }
+ 
+.text-box{
+    padding: 10px;
+    color: white;
+}
+.card:hover{
+    box-shadow: red;
+}
+

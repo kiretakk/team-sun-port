@@ -1,0 +1,27 @@
+.navbar {
+    background-color: blue;
+}
+.navbar a {
+    color: white;
+    overflow: hidden;
+    font-size: 30px;
+    padding: 20px;
+    width: 100%;
+    height: 80%;
+    text-decoration: indigo;
+    font-weight: bold;
+}
+body {
+    background-color: chartreuse;
+    opacity: 0.6;
+}
+.con p {
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+.el p {
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}

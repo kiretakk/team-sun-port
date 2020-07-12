@@ -1,0 +1,39 @@
+/*cganging the nav bar to different styles*/
+.topnavbar {
+    width: 100%;
+    background: #FF4141;
+    margin-top: opx;
+    height: 30px;
+    padding: 27px 32px;
+}
+.topnavbar a {
+    padding: 18px 23px;
+    background-color: #47ff41;
+    font-size: 20px;
+    font-weight: 600;
+}
+/*changing the paragraph elements*/
+p {
+    color:black;
+    font-family: cursive;
+    font-size: 40px;
+}
+
+/*changing the form elements*/
+form {
+    padding: 56px 35px;
+    color: black;
+    cursor: all-scroll;
+    font-size: 20px;
+}
+    
+
+
+/*changing elements with in the footer*/
+footer {
+    color: red;
+    text-align: center;
+    font-style: italic;
+    background-color: lightblue;
+    font-size: 40px;
+}
